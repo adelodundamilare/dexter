@@ -27,7 +27,7 @@ const data: IData[] = [
 
 export function Vendors() {
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 p-2">
       {data &&
         data.map((item: IData, key: number) => {
           return (
